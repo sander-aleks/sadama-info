@@ -24,7 +24,7 @@
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             
             <div class="top-5 left-10 fixed">
-                @include('images.logoname')
+                @include('components.app-logo-white')
             </div>
             
             @if (Route::has('login'))
@@ -43,7 +43,7 @@
 
             <div class="">
                 <div class="flex justify-center">
-                    @include('images.logo')
+                    @include('components.logo')
                 </div>
                 <div class="flex justify-center pt-10">
                     <h1 class="text-5xl font-bold text-slate-200">Saarte Liinid Logiraamat</h1>
