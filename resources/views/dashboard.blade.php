@@ -13,26 +13,26 @@
         </div>
     </x-slot>
     <div class="w-full">
-        <ul class="flex flex-col items-center">
-            <li class="w-96 mt-3 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Kuivastu sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Virtsu sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Roomassaare sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Heltermaa sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Rohuküla sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Sõru sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Sviby sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Ringsu sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Triigi sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Kihnu sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Munalaiu sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Abruka sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Vikati sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Papissaare sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Laaksaare sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Piirissaare sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Naissaare sadam</li>
-            <li class="w-96 mt-1 mb-1 pt-1 pb-1 hover:bg-sky-700 text-lg rounded-md text-center text-slate-200 bg-gray-800 ">Manilaiu sadam</li>
-        </ul>
+        <div class="grid grid-cols-2 items-center gap-x-8">
+            <x-harbor-button class="mt-3 justify-self-end">Kuivastu sadam</x-harbor-button>
+            <x-harbor-button class="mt-3">Virtsu sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Roomassaare sadam</x-harbor-button>
+            <x-harbor-button>Heltermaa sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Rohuküla sadam</x-harbor-button>
+            <x-harbor-button>Sõru sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Sviby sadam</x-harbor-button>
+            <x-harbor-button>Ringsu sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Triigi sadam</x-harbor-button>
+            <x-harbor-button>Kihnu sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Munalaiu sadam</x-harbor-button>
+            <x-harbor-button>Abruka sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Vikati sadam</x-harbor-button>
+            <x-harbor-button>Papissaare sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Laaksaare sadam</x-harbor-button>
+            <x-harbor-button>Piirissaare sadam</x-harbor-button>
+            <x-harbor-button class="justify-self-end">Naissaare sadam</x-harbor-button>
+            <x-harbor-button>Manilaiu sadam</x-harbor-button>
+        </div>
     </div>
 
 </x-app-layout>
